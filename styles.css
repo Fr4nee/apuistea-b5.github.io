@@ -1,6 +1,14 @@
 @charset "UTF-8";
+.van {
+  margin-left: 2em;
+}
+
 .mainnn {
   margin-top: 1em;
+}
+
+.titprin {
+  margin-left: 2em;
 }
 
 .asideycontent {
