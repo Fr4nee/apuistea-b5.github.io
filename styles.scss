@@ -6,8 +6,19 @@ body { position: relative; }
 .margindelboton { margin-right: 5px; }
 
 // MAIN
-.mainnn { margin-top: 1em; }
-.titprin { margin-left: 1em; margin-bottom: 1em; }
+.mainnn { padding-top: 3.5em; }
+.contit {
+    padding: 1em;
+    background-color: white;
+    position: fixed;
+    padding-bottom: 0.5em;
+    z-index: 100;
+}
+.active {
+    background-color: #fff !important;
+    color: #0d6efd !important;
+}
+.asideycontent { margin-top: 5em;}
 .pf { position: fixed;}
 .ml { margin-left: 20em;}
 
@@ -15,6 +26,7 @@ body { position: relative; }
 .paddingentreparrafos- { padding-top: 1em; }
 
 // FOOTER
+
 
 
 
