@@ -1,5 +1,5 @@
 //GENERAL
-body { position: relative; }
+//body { position: relative; }
 
 // HEADER
 .van { margin-left: 2em; }
@@ -20,7 +20,17 @@ body { position: relative; }
 }
 .asideycontent { margin-top: 5em;}
 .pf { position: fixed;}
-.ml { margin-left: 20em;}
+.ml { 
+    margin-left: 20em; 
+    position: relative;
+}
+.ancl:before {
+    display: block;
+    content: " ";
+    margin-top: -120px;
+    height: 120px;
+    visibility: hidden;
+}
 
 .paddingentreparrafos { padding-bottom: 2em; }
 .paddingentreparrafos- { padding-top: 1em; }

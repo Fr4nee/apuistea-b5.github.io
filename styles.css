@@ -1,8 +1,4 @@
 @charset "UTF-8";
-body {
-  position: relative;
-}
-
 .van {
   margin-left: 2em;
 }
@@ -38,6 +34,15 @@ body {
 
 .ml {
   margin-left: 20em;
+  position: relative;
+}
+
+.ancl:before {
+  display: block;
+  content: " ";
+  margin-top: -120px;
+  height: 120px;
+  visibility: hidden;
 }
 
 .paddingentreparrafos {
