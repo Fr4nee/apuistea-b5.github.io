@@ -1,11 +1,16 @@
+//GENERAL
+body { position: relative; }
+
 // HEADER
 .van { margin-left: 2em; }
 .margindelboton { margin-right: 5px; }
 
 // MAIN
 .mainnn { margin-top: 1em; }
-.titprin { margin-left: 1em; }
-.asideycontent { margin-top: 1em; }
+.titprin { margin-left: 1em; margin-bottom: 1em; }
+.pf { position: fixed;}
+.ml { margin-left: 20em;}
+
 .paddingentreparrafos { padding-bottom: 2em; }
 .paddingentreparrafos- { padding-top: 1em; }
 

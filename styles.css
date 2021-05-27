@@ -1,4 +1,8 @@
 @charset "UTF-8";
+body {
+  position: relative;
+}
+
 .van {
   margin-left: 2em;
 }
@@ -13,10 +17,15 @@
 
 .titprin {
   margin-left: 1em;
+  margin-bottom: 1em;
 }
 
-.asideycontent {
-  margin-top: 1em;
+.pf {
+  position: fixed;
+}
+
+.ml {
+  margin-left: 20em;
 }
 
 .paddingentreparrafos {
