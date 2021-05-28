@@ -32,7 +32,10 @@ body { position: relative; }
 .paddingentreparrafos { padding-bottom: 1em; }
 .paddingentreparrafos- { padding-top: 1em; }
 .elimmargin { margin: 0px; }
-.marginfoto { margin-bottom: 10px; }
+.marginfoto { 
+    margin-bottom: 20px; 
+    margin-left: 15px;
+}
 
 // FOOTER
 footer { font-size: small; color: rgba(255, 255, 255, 0.55);}
