@@ -345,8 +345,8 @@
                         <div class="paddingentreparrafos-">
                             <p>En la imagen del IDE podemos ver que el Entry Point <strong>Static void Main(string[] args) {...}</strong> esta conformado por los siguientes elementos:</p>
                             <p><strong>static</strong>: Es un modificador que permite ejecutar un método sin tener que instanciar a una variable (sin crear un objeto). El método Main() debe ser estático.</p>
-                            <p><strong>void</strong> Indica el tipo de valor de retorno del método Main(). No necesariamente tiene que ser void.</p>
-                            <p><strong>string[] args</strong> Es un Array de tipo string que puede recibir el método Main() como parámetro.</p>
+                            <p><strong>void</strong>: Indica el tipo de valor de retorno del método Main(). No necesariamente tiene que ser void.</p>
+                            <p><strong>string[] args</strong>: Es un Array de tipo string que puede recibir el método Main() como parámetro.</p>
                         </div>
                         <div>
                             <p>Ademas en la imagen del IDE podemos observar otros elementos importantes:</p>
@@ -366,12 +366,12 @@
                     <!-- Items Secundario -->
                     <div class="paddingentreparrafos">
                         <h5 class="ancl" id="item-2-4">Metodos</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sint esse totam culpa quia dolor consectetur neque iusto. Cumque earum quod autem, reiciendis possimus dicta perspiciatis corporis non enim quasi.</p>
+                        <p>VACIO</p>
                     </div>
                     <!-- Items Secundario -->
                     <div class="paddingentreparrafos">
                         <h5 class="ancl" id="item-2-5">Clases</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sint esse totam culpa quia dolor consectetur neque iusto. Cumque earum quod autem, reiciendis possimus dicta perspiciatis corporis non enim quasi.</p>
+                        <p>VACIO</p>
                     </div>
 
                     <!--------------------->
@@ -383,22 +383,27 @@
                     <!-- Items Secundario -->
                     <div class="paddingentreparrafos">
                         <h5 class="ancl" id="item-3-1">Declaracion de Variables</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nisi consequatur quia placeat nobis maiores molestiae veritatis neque facere. Unde culpa explicabo excepturi iure magni minima omnis minus odit et.</p>
+                        <p>Para declarar variables podemos o no ingresarle un dato para que quede null.</p>
+                        <p>Ejemplo: <code>int numero = 0;</code> | <code>string nombre;</code> | <code>bool x = true;</code></p>
                     </div>
                     <!-- Items Secundario -->   
                     <div class="paddingentreparrafos">
                         <h5 class="ancl" id="item-3-2">Array[]</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reiciendis modi repudiandae obcaecati, eius sunt provident fuga id reprehenderit officia architecto vero esse inventore ipsam placeat aliquam? Sed, impedit provident!</p>
+                        <p>Los arrays es una variable donde se pueden almacenar varios datos. Cada uno de esos datos se indentifican como indices(i) arrancando por el indice 0 que es el primer dato del array. Para acceder a un dato es necesario ubicarlo por el indice dentro del array. Podemos introducir datos en el momento que lo declaramos o introducirlos despues.</p>
+                        <p>Ejemplos:</p>
+                        <p><code>int[] numeros;</code> declaracion sin inforacion.</p>
+                        <p><code>int[] numeros = new int[3];</code> declaracion con 3 indices.</p>
+                        <p><code>string[] nombres = {"Juan", "Martin", "Pedro"};</code> declaracion con informacion.</p>
                     </div>
                     <!-- Items Secundario -->
                     <div class="paddingentreparrafos">
                         <h5 class="ancl" id="item-3-3">Array[][]</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sint esse totam culpa quia dolor consectetur neque iusto. Cumque earum quod autem, reiciendis possimus dicta perspiciatis corporis non enim quasi.</p>
+                        <p>VACIO</p>
                     </div>
                     <!-- Items Secundario -->
                     <div class="paddingentreparrafos">
                         <h5 class="ancl" id="item-3-4">Matriz</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sint esse totam culpa quia dolor consectetur neque iusto. Cumque earum quod autem, reiciendis possimus dicta perspiciatis corporis non enim quasi.</p>
+                        <p>VACIO</p>
                     </div>
                     <!-- Items Secundario -->
                     <div class="paddingentreparrafos">
@@ -440,7 +445,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="paddingentreparrafos-">Ejemplos con ELSE</p>
+                            <p class="paddingentreparrafos-">Ejemplos con ELSE:</p>
                             <div class="container px-4">
                                 <div class="row gx-5">
                                     <div class="col">
@@ -467,17 +472,72 @@
                     <div class="paddingentreparrafos">
                         <h5 class="ancl" id="item-4-2">While / Do While</h5>
                             <p>Permite ejecutar una secuencia de instrucciones repetidamente hasta que la condición no se cumpla.</p>
+                            <div class="container px-4">
+                                <div class="row gx-5">
+                                    <div class="col">
+                                        <div class="p-0 border bg-light">
+                                            <div class="card">
+                                                <img src="while.jpg" class="card-img-top" >
+                                                    <div class="card-body">
+                                                        <p class="card-text">Evalua la condicion y en el el caso de ser true, ejecuta el codigo interno. Para salir del While, cond tiene que pasar a ser false.</p>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="p-0 border bg-light">
+                                            <div class="card">
+                                                <img src="do.jpg" class="card-img-top" >
+                                                    <div class="card-body">
+                                                        <p class="card-text">Igual que el While pero el Do ejecuta el codigo interno y cuando llega al final, evalua la condicion para volver a repetir el bucle si es true, sino sale.</p>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                     <!-- Items Secundario -->
                     <div class="paddingentreparrafos">
                         <h5 class="ancl" id="item-4-3">For / Foreach</h5>
-                            <p>Es una estructura de repetición que nos sirve para repetir un proceso una determinada cantidad de veces hasta llegar a un número de referencia que determinará el fin del proceso.</p>
-
-                            <p>La estructura de repeticion "FOREACH"...</p>
+                            <p>Son estructuras de repetición que nos sirve para repetir un proceso una determinada cantidad de veces hasta llegar a un número de referencia que determinará el fin del proceso.</p>
+                            <div class="container px-4">
+                                <div class="row gx-5">
+                                    <div class="col">
+                                        <div class="p-0 border bg-light">
+                                            <div class="card">
+                                                <img src="for.jpg" class="card-img-top" >
+                                                    <div class="card-body">
+                                                        <p class="card-text">Devuelve el contenido del array (1, 2, 3) en cada salto de linea.</p>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <p>En cada iteracion, el bucle for va a mostrar el contenido del array pasando por cada posicion (i = indice). </p>
+                                        <p><code>int i = 0;</code> es el punto de inicio.</p>
+                                        <p><code>i < array.Lenght;</code> es la condicion del bucle, mientras sea true se va a seguir iterando. .Lenght indica el tamaño del array.</p>
+                                        <p><code>i++;</code> de a cuanto incremendo(++) o reduzco(--) el indice(i).</p>
+                                    </div>
+                                    <div class="col">
+                                        <div class="p-0 border bg-light">
+                                            <div class="card">
+                                                <img src="foreach.jpg" class="card-img-top" >
+                                                    <div class="card-body">
+                                                        <p class="card-text">Devuelve el contenido del array ("Juan", "Martin", "Pedro") en cada salto de linea.</p>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <p>El Foreach es muy similar al For solo que es mas practico para recorrer arrays porque itera la cantidad de indices que tenga sin especificarlo.</p>
+                                        <p><code>var a</code>: es una variable interna del foreach. </p>
+                                        <p><code>in</code>: "en".</p>
+                                        <p><code>nombre</code>: invoca al array.</p>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                     <!-- Items Secundario -->
                     <div class="paddingentreparrafos">
                         <h5 class="ancl" id="item-4-4">Switch</h5>
+                        <img src="switch.jpg" class="rounded float-end marginfoto">
                         <p>Es una estructura de control que depende del valor de una variable para ejecutar una secuencia de instrucciones asociada a ese valor. Puede suceder que una secuencia de instrucciones sea común para más de un valor de la variable numérica, es el caso que se ve en la imagen siguiente, donde el valor 2 y 3 de la variable numérica lleva a ejecutar una misma secuencia de instrucciones. Cada valor de la variable numérica es una opción que ejecuta una serie de instrucciones, es por esto que esta instrucción es recomendable para manejar Menu muy complejos. La opción “DEFAULT” significa que si la variable numérica torna un valor que no está en ninguna de las opciones anteriores ejecuta las instrucciones de esa opción.</p>
                     </div>
 
@@ -521,8 +581,6 @@
         </div>
     </div>
 </footer>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
 </body>
 </html>
