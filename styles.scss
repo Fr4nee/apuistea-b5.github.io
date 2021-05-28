@@ -29,8 +29,9 @@ body { position: relative; }
     height: 120px;
     visibility: hidden;
 }
-.paddingentreparrafos { padding-bottom: 2em; }
+.paddingentreparrafos { padding-bottom: 1em; }
 .paddingentreparrafos- { padding-top: 1em; }
+.elimmargin { margin: 0px; }
 
 // FOOTER
 footer { font-size: small; color: rgba(255, 255, 255, 0.55);}

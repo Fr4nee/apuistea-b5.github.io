@@ -50,11 +50,15 @@ body {
 }
 
 .paddingentreparrafos {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 .paddingentreparrafos- {
   padding-top: 1em;
+}
+
+.elimmargin {
+  margin: 0px;
 }
 
 footer {
