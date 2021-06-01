@@ -366,14 +366,54 @@
                     <!-- Items Secundario -->
                     <div class="paddingentreparrafos">
                         <h5 class="ancl" id="item-2-4">Metodos</h5>
-                        <p>VACIO</p>
-                    </div>
+                        <p>Son porciones de codigo que ejecutan instrucciones especificas y agrupadas a realizar. Luego de ser programados, para ejecutar un metodo hay que llamarlos. La ventaja que tienen los metodos es que son reutilizables, se programan y se llaman en distintas partes del programa. Aparte son dinamicos, podemos usar un mismo metodo pero con distintos parametros segun la necesidad.</p>
+                        <p>Pueden devolver un tipo de dato o puede ser un "mini programa" que no devuelva nada, en ese caso el metodo va a ser <strong>void</strong>. Si queremos que devuelva un tipo de dato ademas de especificarlo vamos a hacer uso del <strong>return;</strong>.</p>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <div class="card" style="width: 25rem;">
+                                    <img src="metodovoid.png" class="card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text">Metodo de tipo void.</p>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 15rem;">
+                                <img src="metodoint.png" class="card-img-top">
+                                    <div class="card-body">
+                                        <p class="card-text">Metodo de tipo int.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="paddingentreparrafos-">Los metodos tambien admiten el uso de variables que esten por fuera de los mismos, para usarlas tenemos que pasarle la variable por parametro. Si a Metodo() le queremos pasar una variable de tipo string que este en el main (obviamente primero la declaramos en el main) la sintaxis quedaria asi: <code>static void Metodo(string palabra)</code>. Y cuando llamamos a ese metodo en el Main en el parentesis pasamos dicha variable palabra.</p>
+                    </div>                          
                     <!-- Items Secundario -->
                     <div class="paddingentreparrafos">
                         <h5 class="ancl" id="item-2-5">Clases</h5>
-                        <p>VACIO</p>
+                        <p>Para entender facilmente que son las clases podriamos decir que son como un "molde" para la creacion de objetos. Para el ejemplo vamos a ver como podemos calcular el area de un circulo usando la clase Circulo y pasandole por parametro el radio.</p>
+                        <p>Ejemplo:</p>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <div class="card" style="width: 25rem;">
+                                    <img src="clasevs.png" class="card-img-top">
+                                    </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 28rem;">
+                                    <img src="claseconsola.png" class="card-img-top" >
+                                </div>
+                            </div>
+                        </div>
+                        <p class="paddingentreparrafos-">En la clase <strong>Circulo</strong> tenemos creado el "molde" de lo que va a ser nuestro circulo. Tenemos declarada la variable <code>pi</code> y el metodo <strong>calcArea</strong> que nos calcula el area.</p>
+                        <p>En la clase <strong>Program</strong> podemos observar varias cosas: <ul class="list-unstyled">
+                            <li><code>Circulo CirculoNro1;</code> crea el objeto como tal.</li>
+                            <li><code>CirculoNro1 = new Circulo();</code> Define al obejeto.</li>
+                            <li><code>Console.WriteLine(CirculoNro1.calcArea(5));</code> pasamos por parametro que el radio va a ser 5 y que muestre en consola el resultado.</li>
+                        </ul>
+                        </p>
                     </div>
-
+                        
                     <!--------------------->
                     <!-- Item Primario 3 -->
                     <!--------------------->
@@ -400,19 +440,19 @@
                         <h5 class="ancl" id="item-3-3">Matrices Escalonadas</h5>
                         <p>Mas conocidas como "Arrays de Arrays" ("jaggedArray" en la documentacion de Microsoft) se compone por un Array que tiene dentro otro array, este ultimo puede tener un tamaño distinto al primero. Para pensarlo mas graficamente podemos imaginarlo como filas con distinta cantidad de columnas.</p>
                         <p>Cuando las definimos primero indicamos la cantidad de filas que va a tener, luego de definirla declaramos la cantidad de columnas</p>
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col">
-                                <p><code>string[][] jaggedArray = new string [3][];</code></p>
-                        <p><code>jaggedArray[0] = new string[3];</code></p>
-                        <p><code>jaggedArray[1] = new string[2];</code></p>
-                        <p><code>jaggedArray[3] = new string[4];</code></p>
-                            </div>
-                            <div class="col">
-                                <img src="ejemploarrayesc.png" class="img-fluid rounded float-end">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <p><code>string[][] jaggedArray = new string [3][];</code></p>
+                                    <p><code>jaggedArray[0] = new string[3];</code></p>
+                                    <p><code>jaggedArray[1] = new string[2];</code></p>
+                                    <p><code>jaggedArray[3] = new string[4];</code></p>
+                                </div>
+                                <div class="col">
+                                    <img src="ejemploarrayesc.png" class="img-fluid rounded float-end">
+                                </div>
                             </div>
                         </div>
-                    </div>
 
                     <!-- Items Secundario -->
                     <div class="paddingentreparrafos">
