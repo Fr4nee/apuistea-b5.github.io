@@ -83,9 +83,9 @@
                                         <!-- Items Secundario -->
                                         <nav class="nav nav-pills flex-column">
                                             <a class="nav-link ms-0 my-0" href="#item-3-1">Declaracion de Variables</a>
-                                            <a class="nav-link ms-0 my-0" href="#item-3-2">Matrices Escalonadas</a>
-                                            <a class="nav-link ms-0 my-0" href="#item-3-3">Matrices Multidimencionales</a>
-                                            <a class="nav-link ms-0 my-0" href="#item-3-4">Matriz</a>
+                                            <a class="nav-link ms-0 my-0" href="#item-3-2">Arrays[]</a>
+                                            <a class="nav-link ms-0 my-0" href="#item-3-3">Matrices Escalonadas</a>
+                                            <a class="nav-link ms-0 my-0" href="#item-3-4">Matrices Multidimencionales</a>
                                             <a class="nav-link ms-0 my-0" href="#item-3-5">Listas</a>
                                         </nav>
                                     </div>
@@ -397,18 +397,61 @@
                     </div>
                     <!-- Items Secundario -->
                     <div class="paddingentreparrafos">
-                        <h5 class="ancl" id="item-3-3">Matrices Escalonadas (Array de Arrays)</h5>
-                        <p>VACIO</p>
+                        <h5 class="ancl" id="item-3-3">Matrices Escalonadas</h5>
+                        <p>Mas conocidas como "Arrays de Arrays" ("jaggedArray" en la documentacion de Microsoft) se compone por un Array que tiene dentro otro array, este ultimo puede tener un tamaño distinto al primero. Para pensarlo mas graficamente podemos imaginarlo como filas con distinta cantidad de columnas.</p>
+                        <p>Cuando las definimos primero indicamos la cantidad de filas que va a tener, luego de definirla declaramos la cantidad de columnas</p>
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <p><code>string[][] jaggedArray = new string [3][];</code></p>
+                        <p><code>jaggedArray[0] = new string[3];</code></p>
+                        <p><code>jaggedArray[1] = new string[2];</code></p>
+                        <p><code>jaggedArray[3] = new string[4];</code></p>
+                            </div>
+                            <div class="col">
+                                <img src="ejemploarrayesc.png" class="img-fluid rounded float-end">
+                            </div>
+                        </div>
                     </div>
+
                     <!-- Items Secundario -->
                     <div class="paddingentreparrafos">
                         <h5 class="ancl" id="item-3-4">Matrices Multidimencionales</h5>
-                        <p>VACIO</p>
+                        <p>Son mas utilizadas que las Matrices Escalonadas pero iguales pensada graficamente. En este caso el array se compone por 2 indices que juntos interpretamos como una "coordenada".</p>
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <p><code>string[,] tabla = new string[2,3];</code></p>
+                                    <p><code>tabla[0,0] = "Nombre";</code></p>
+                                    <p><code>tabla[1,0] = "Juan";</code></p>
+                                    <p><code>tabla[0,1] = "Segundo Nombre";</code></p>
+                                    <p><code>tabla[1,1] = "José";</code></p>
+                                    <p><code>tabla[0,2] = "Apellido";</code></p>
+                                    <p><code>tabla[1,2] = "Perez";</code></p>
+                                </div>
+                                <div class="col">
+                                    <img src="ejemploarraymult.png" class="img-fluid rounded float-end">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     </div>
                     <!-- Items Secundario -->
                     <div class="paddingentreparrafos">
                         <h5 class="ancl" id="item-3-5">Listas</h5>
-                        <p>VACIO</p>
+                        <p>Son similares a los arrays, permiten almacenar una coleccion de datos. Pero la gran diferencia que tienen es que las listas son mutables, es decir, pueden variar de tamaño y no tienen un limite logico. Aparte de eso se pueden hacer consultas en LINQ </p>
+                        <p>Ejemplo:</p>
+                        <div class="container">
+                            <div class="row align-items-start">
+                                <div class="col">
+                                    <p><code> List< string > Ciudades = new list< string >(); </code></p>
+                                    <p><code>Ciudades.Add("Monaco");</code></p>
+                                    <p><code>Ciudades.Add("Nueva York");</code></p>
+                                    <p><code>Ciudades.Add("Tokio");</code></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <!--------------------->

@@ -66,6 +66,10 @@ body {
   margin-left: 20px;
 }
 
+.marginfotoo {
+  margin-top: 80px;
+}
+
 footer {
   font-size: small;
   color: rgba(255, 255, 255, 0.55);
