@@ -1,3 +1,19 @@
+//CSS index
+.indx{
+    padding-top: 20em;
+    padding-bottom: 2em;
+}
+.cardd {
+    margin: 10px;
+}
+
+.objftcv {
+    object-fit: cover !important;
+    //height: 200px;
+    //width: 90px !important;
+}
+
+
 //GENERAL
 body { 
     position: relative; 
@@ -63,7 +79,14 @@ body {
 // FOOTER
 footer { 
     font-size: small; color: rgba(255, 255, 255, 0.55);
+    display: block;
+    width: 100%;
+    bottom: 0;
 }
+/*.fooindx{
+    position: fixed;
+}*/
+
 .il { 
     margin: 5px;
 }

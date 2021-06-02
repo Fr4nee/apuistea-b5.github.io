@@ -1,4 +1,18 @@
 @charset "UTF-8";
+.indx {
+  padding-top: 20em;
+  padding-bottom: 2em;
+}
+
+.cardd {
+  margin: 10px;
+}
+
+.objftcv {
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+
 body {
   position: relative;
 }
@@ -75,8 +89,14 @@ body {
 footer {
   font-size: small;
   color: rgba(255, 255, 255, 0.55);
+  display: block;
+  width: 100%;
+  bottom: 0;
 }
 
+/*.fooindx{
+    position: fixed;
+}*/
 .il {
   margin: 5px;
 }
