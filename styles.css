@@ -1,11 +1,11 @@
 @charset "UTF-8";
 .indx {
-  padding-top: 20em;
-  padding-bottom: 2em;
+  padding-top: 9em;
+  padding-bottom: 15.2em;
 }
 
 .cardd {
-  margin: 10px;
+  margin: 10px !important;
 }
 
 .objftcv {
